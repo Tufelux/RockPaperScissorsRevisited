@@ -1,5 +1,6 @@
 
-console.log("Hello World!")
+let computerScore = 0;
+let humanScore = 0;
 
 function getComputerChoice() {
     let rnd = Math.floor(Math.random() * 3);
@@ -15,4 +16,16 @@ function getComputerChoice() {
     }
 }
 
-getComputerChoice()
+function getHumanChoice() {
+    let choice = prompt("Choose your move: ")
+
+    return console.log(choice)
+}
+
+function playRound(computerChoice, humanChoice) {
+    
+}
+
+getHumanChoice();
+
+// getComputerChoice()
